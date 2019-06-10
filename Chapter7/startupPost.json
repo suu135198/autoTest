@@ -6,7 +6,10 @@
       "method":"post"
     },
     "response":{
-      "text":"这是我的第一个mock的post请求"
+      "text":"这是我的第一个mock的post请求",
+      "headers":{
+        "Content-Type":"text/html;charset=gbk"
+      }
     }
   },
   {
@@ -20,7 +23,10 @@
       }
     },
     "response":{
-      "text":"我胡汉三带着参数来啦！！！"
+      "text":"我胡汉三带着参数来啦！！！",
+      "headers":{
+        "Content-Type":"text/html;charset=gbk"
+      }
 
     }
   }
